@@ -1,0 +1,12 @@
+I : Interface Segregation Principle
+
+No client should be forced to depend on methods it does not use.
+
+One fat interface need to be split to many smaller and relevant interfaces so that clients can know about the interfaces that are relevant to them.
+
+This was first used and formulated by Robert C. Martin while consulting for Xerox.
+
+
+Problem :
+
+Xerox had created a new printer system that could perform a variety of tasks such as stapling and faxing along with the regular printing task.
