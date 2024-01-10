@@ -6,10 +6,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-	<ItemGroup>
-		<Folder Include="1_design\" />
-		<Folder Include="2_MaintenanceProblem\" />
-		<Folder Include="3_Solution\" />
-	</ItemGroup>
 </Project>
