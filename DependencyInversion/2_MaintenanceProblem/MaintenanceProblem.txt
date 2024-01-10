@@ -1,0 +1,3 @@
+﻿The direct object of Data Access Layer is created in the Business layer
+
+The unit testing of these module becomes hard because we need to define all the classes for which the object is being created.

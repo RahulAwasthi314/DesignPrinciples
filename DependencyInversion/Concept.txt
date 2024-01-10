@@ -1,0 +1,12 @@
+D : Dependency Inversion Principle
+
+High level modules should not depend on low level modules. Both should depend on abstractions.
+
+Abstractions should not depend on details. Details should depend on abstractions.
+
+The interaction between high level and low level modules should be thought of as an abstract interation between them.
+
+Introduced by Robert C. Martin.
+
+Intention of Usage: 
+Presentation Layer -> Business Layer -> DataAccess Layer

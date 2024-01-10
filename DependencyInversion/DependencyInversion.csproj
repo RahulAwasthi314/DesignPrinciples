@@ -7,11 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="2_MaintenanceProblem\MaintenanceProblem.txt" />
+  </ItemGroup>
 
-	<ItemGroup>
-		<Folder Include="1_design\" />
-		<Folder Include="2_MaintenanceProblem\" />
-		<Folder Include="3_Solution\" />
-	</ItemGroup>
+  <ItemGroup>
+    <Compile Include="2_MaintenanceProblem\MaintenanceProblem.txt" />
+  </ItemGroup>
 
 </Project>
