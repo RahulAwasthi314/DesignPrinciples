@@ -1,0 +1,17 @@
+L : Liskov Substitution Principle
+
+S is a subtype of T, then objects of type T may be replaced with object of type S.
+
+Derived types must be completely substitutable for their base types.
+
+Liskov Substitution Principle is a particular definition of a subtyping relation, called (strong) behavioral subtyping.
+
+Introduced by Barbara Liskov
+
+Extension of the Open Closed Principle
+
+
+Implementation Guidelines
+	No new exceptions can be thrown by the subtype.
+	Clients should not know which specific subtype they are calling.
+	New derived classes just extend without replacing the functionality of old classes
