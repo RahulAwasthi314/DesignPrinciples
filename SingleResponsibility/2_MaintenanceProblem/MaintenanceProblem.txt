@@ -1,0 +1,16 @@
+The initial design looks fine and completes all the steps in authentication process as methods.
+
+The problem comes as we try to maintain the code.
+like: 
+	If client want to migrate the database for storing user data.
+	if we want to change the logger integrated in the application.
+	If we want to use any other email service provider in application.
+
+problems:
+	in all above scenarios we need to test each method of class if we try to modify one.
+	that would cause the huge testing cost for time and money.
+
+solution:
+	instead of implementing whole authentication process as interface.
+	try to separate the User entity from system which goes with authentication system.
+	and implement the logger from another interface.

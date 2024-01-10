@@ -1,0 +1,19 @@
+S : Single Responsibility Principle
+
+A class should have only one reason to change.
+
+Each class and module should focus on a single task at a time.
+
+Every member and property of the class should fulfil that single purpose.
+
+Every module or class should have responsibility over a single part of the functionality provided by the softeare,
+that responsibility should be entirely encapsulated by the class.
+
+Goals : 
+	Maintenance
+	Testability
+	Less fragile code
+	Separation of concerns
+	Loose Coupling between functionality and object
+
+This would help to maintain the relationship between entity and behaviors by loose coupling and test them independently.
