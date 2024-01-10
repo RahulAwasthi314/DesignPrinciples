@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34407.89
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{08F338B5-8D4D-4A92-9CA8-964E372423DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{08F338B5-8D4D-4A92-9CA8-964E372423DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosed", "OpenClosed\OpenClosed.csproj", "{72FF49F7-BBDA-48B2-B9E8-418143DA8196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosed", "OpenClosed\OpenClosed.csproj", "{72FF49F7-BBDA-48B2-B9E8-418143DA8196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution", "LiskovSubstitution\LiskovSubstitution.csproj", "{F144A0CB-0EB3-43E8-9384-A64DA7481EAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstitution", "LiskovSubstitution\LiskovSubstitution.csproj", "{F144A0CB-0EB3-43E8-9384-A64DA7481EAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{4697AB2E-6EEA-4BE7-96B9-EAE64FDCB5D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{4697AB2E-6EEA-4BE7-96B9-EAE64FDCB5D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversion", "DependencyInversion\DependencyInversion.csproj", "{315B3AA7-D83C-479D-8A8C-59D7F83E43A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversion", "DependencyInversion\DependencyInversion.csproj", "{315B3AA7-D83C-479D-8A8C-59D7F83E43A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4190A8BE-92A6-459D-8D68-FE3412839944}"
+	ProjectSection(SolutionItems) = preProject
+		SolidPrinciples.txt = SolidPrinciples.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

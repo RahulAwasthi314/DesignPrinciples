@@ -1,0 +1,36 @@
+SOLID principles are the design principles that enable us manage most of the software design problems.
+
+The term SOLID is an acronym for five design principles intended to make software designs more understandable, flexible and maintainable.
+
+These principles are subset of many principles promoted by Robert C. Martin.
+
+SOLID acronym was first introduced by Micheal Feathers.
+
+SOLID =>
+S : Single Responsibility Principle
+O : Open Closed Principle
+L : Liskov Substitution Principle
+I : Interface Segregation Principle
+D : Dependency Inversion Principle
+
+
+If a software developer named JJ does not follow the SOLID principle, he could end up with :
+
+	- Tight coupling of the code with many other modules/applications
+	- Implement every new requirement by spending exponential time as the project complexity grows.
+	- Updating the already tested code, and testing again these modules, gradually increasing maintenance cost at each step.
+	- Duplication of code on multiple places.
+
+So better approach to save those bucks by using these principles and :
+	- achieve reduction in complexity of code.
+	- increase readability, extensibility and maintenance.
+	- reduce error and implement reusability.
+	- achieve better testability.
+	- reduce tight coupling.
+
+
+Successful development of application depends on :
+	- Architecture = MVC, WebAPI, MVVM
+	- Design Principles
+	- Design Patterns
+	
